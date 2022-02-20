@@ -11,22 +11,31 @@
         <h1>
             Survey Form
         </h1>
-        <div> <label name="lblusername">
+
+        <div><label name="lblusername">
             User Name:
         </label></div>
         <input type="text" name="txtusername" placeholder="Enter your name here"  autofocus>
+        <div><label name="lblusername">
+            Password:
+        </label></div>
+        <input type="password" name="txtpassword" placeholder="Enter your password">
         <div>
-            <label name="lblgender">
+            <label name="gender" >
                 Gender:
             </label>
+            <select>
+                <option value="Male" >Male</option>
+                <option value="Female" >Female</option>
+                <option value="Others" >Others</option>
+            </select>
         </div>
-            <input type="text" name="txtgender" placeholder="Enter your gender">
             <div>
                 <label name="lbldateofbirth">
                     Date Of Birth:
                 </label>
             </div>
-                <input type="text" name="txtdateofbirth" placeholder="Enter your DOB">
+                <input type="date" name="txtdateofbirth" placeholder="Enter your DOB">
             <div>
                 <label name="lblnationlity">
                     Nationlity:
@@ -64,8 +73,17 @@
         </div>
             <input type="text" name="txtaddress" placeholder="Enter your Address">
         <div>
-            <input type="submit" >
+            <label name="lblmessage" >
+                Message:
+            </label>
+            <textarea placeholder="Enter your Message Here..." ></textarea>
         </div>
+        <br><br>
+        <div>
+            <input type="submit" value="Register" >
+        </div>
+        <br><br>
+        <button onclick="kat">Button</button>
         
     </form> 
 </body>
