@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: black;
+        }
+        div {
+            width: 100px;
+            height: 100px;
+            color: blue;
+            border: 1px solid crimson;
+            margin: 20px auto;
+            padding: 5px;
+        }
+
+        #top-left{
+            border-radius: 20px;
+            box-shadow: 5px 5px 0 0;
+        }
+
+        #bottom-right{
+            text-align: center;
+            padding: 10px;
+            margin: auto;
+            box-shadow: inset 10px 10px 0 0
+        }
+
+        #bottom-left{
+            border-radius: 100px;
+            box-shadow: 5px 5px 5px 5px yellowgreen;
+            text-align: center;
+        }
+
+    </style>
+
+    <div id="top-left" >top left</div>
+    <div id="bottom-right" >bottom right</div>
+    <div id="bottom-left" >bottom left</div>
+</body>
+</html>

@@ -25,6 +25,59 @@
                 <input title="select book" type="radio" id="r3" name="book" checked value="Family">
                 <label for=r3> Family</label>
             </div>
+
+            <p>
+                Is this a<br>
+                <input type="radio" name="request_type" id="sales request" value="=sales request" > 
+                <label for="sales request">sales Reequest </label>
+
+                <input type="radio" name="request_type" id="support request" value="support request" >
+                <label for="support request">support Request </label>
+            </p>
+
+            <p>
+                My hobbies are <br>
+                <input type="checkbox" name="hobbies[]" value="photography" >photography
+                <input type="checkbox" name="hobbies[]" value="dance" >dance
+                <input type="checkbox" name="hobbies[]" value="singing" >singing
+                <input type="checkbox" name="hobbies[]" value="games" >games
+            </p>
+
+        <fieldset>
+            <legend>DOB</legend>
+            <p>
+                Select your DOB:<br>
+                <select name="dob" id="dob" >
+                    <option value="">select date</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </p>
+        </fieldset>
+            
+            <p>
+                I want Training for <br>
+                <select name="sports-choice" multiple size="4">
+                    <option value="batminton">batminton</option>
+                    <option value="hockey">hockey</option>
+                    <option value="football">football</option>
+                    <option value="cricket">cricket</option>
+                </select>
+            </p>
+
+            <p>
+                your resume: <br>
+                <input type="file" name="resume" >
+            </p>
+            
         </form>
     </div>
 </body>

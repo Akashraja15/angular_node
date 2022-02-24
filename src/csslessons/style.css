@@ -3,21 +3,19 @@
     padding: 0;
 
 }
-header
-{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/image.webp);
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../images/image.webp);
     height: 100vh;
     background-position: centre;
     background-size: cover;
-}
+    }
 
-ul
-{
+ul{
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    }
 
 ul li{
     list-style: none;
@@ -39,8 +37,7 @@ ul li a:hover{
 }
 
 
-.hero
-{
+.hero{
     top: 50%;
     left: 50%;
     position: absolute;
@@ -57,8 +54,8 @@ hr{
     margin: 30px auto;
     border: 1.5px solid #fff;
 }
-p
-{
+
+p{
     font-size: 20px;
     margin-bottom: 30px;
 }

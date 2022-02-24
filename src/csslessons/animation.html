@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: olivedrab;
+        position: relative;
+        animation-name: anim2;  /* this is defined below @keyframes anim */
+        animation-duration: 4s;
+    }
+
+@keyframes anim{
+    0%{
+        left: 0;
+        top: 0;
+        background-color: aqua;
+    }
+    100%{
+        left: 500px;
+        top: 0;
+        background-color: green;
+    }
+}
+
+@keyframes anim2{
+    0%{
+        left: 0;
+        top: 0;
+        background-color: aqua;
+    }
+    25%{
+        left: 500px;
+        top: 0;
+        background-color: green;
+    }
+    50%{
+        left: 500px;
+        top: 0;
+        background-color: greenyellow;
+    }
+    75%{
+        left: 0px;
+        top: 500px;
+        background-color: blue;
+    }
+    100%{
+        left: 0;
+        top: 0;
+        background-color: aqua;
+    }
+}
+    
+</style>
+<body>
+    <h1 style="background-color:orange;">Animation</h1>
+    <div class="box">
+        <p>Paragraphy 2</p>
+    </div>
+</body>
+</html>
