@@ -5,23 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey</title>
+
 </head>
 <body>
     <form >
         <h1>
             Survey Form
         </h1>
+        <fieldset>
 
-        <div><label name="lblusername">
-            User Name:
-        </label></div>
-        <input type="text" name="txtusername" placeholder="Enter your name here"  autofocus>
+            <legend> Login Datils </legend>
+
+            <div><label name="lblusername">
+                User Name:
+            </label></div>
+            <input type="text" name="txtusername" placeholder="Enter your name here"  autofocus>
+            <br><br>
+            <div><label name="lblpassword">
+                Password:
+            </label></div>
+            <input type="password" name="txtpassword" placeholder="Enter your password">
+            
+        </fieldset>
+
         <br><br>
-        <div><label name="lblpassword">
-            Password:
-        </label></div>
-        <input type="password" name="txtpassword" placeholder="Enter your password">
-        <br><br>
+        
         <div>
             <label name="gender" >
                 Gender:
@@ -95,8 +103,8 @@
         </div>
         <!--
         <br><br>
-        <button onclick="kat">Button</button>  -->
+        <button onclick="kat">Button</button> -->
         
-    </form> 
+    </form>
 </body>
 </html>
