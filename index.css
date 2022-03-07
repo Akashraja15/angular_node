@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-
 }
+
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../images/image.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../angular_node/images/place-index.jpg);
     height: 100vh;
     background-position: centre;
     background-size: cover;
-    }
+}
 
 ul{
     float: right;
@@ -36,7 +36,6 @@ ul li a:hover{
     color: #ff7200;
 }
 
-
 .hero{
     top: 50%;
     left: 50%;
@@ -48,14 +47,4 @@ ul li a:hover{
 h1{
     font-size: 60px;
     letter-spacing: 15px;
-}
-hr{
-    width: 50%;
-    margin: 30px auto;
-    border: 1.5px solid #fff;
-}
-
-p{
-    font-size: 20px;
-    margin-bottom: 30px;
 }
