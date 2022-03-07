@@ -2,12 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
+
 body{
-    background: url(../../images/bg-mobile.png);
-    font-family: "Raleway",sans-serif;
+    background: url("../../images/bg-mobile.png"); 
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
+    background-repeat: round;
 }
-section{
+
+.section{
     height: 100vh;
     width: 100%;
     display: flex;
@@ -15,14 +18,17 @@ section{
     justify-content: center;
     align-items: center;
 }
-.boxone{
+
+.boxOne{
     width: 90%;
     background-color: hsl(228, 56%, 26%);
     border-radius: 10px 100px 10px 10px;
 }
+
 .logo{
     margin: 9%;
 }
+
 .icon{
     display: flex;
     align-items: center;
@@ -31,7 +37,8 @@ section{
     width: 50%;
     justify-content: space-between;
 }
-.document, .folder, .upload{
+
+.document , .folder , .upload{
     background-color: hsl(229, 57%, 11%);
     padding: 7%;
     height: 20px;
@@ -41,9 +48,10 @@ section{
     align-items: center;
     border-radius: 10px;
 }
-.boxtwo{
+
+.boxTwo{
     color: white;
-    width: 90;
+    width: 90%;
     background-color: hsl(228, 56%, 26%);
     margin-top: 5%;
     display: flex;
@@ -51,13 +59,18 @@ section{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+
 }
+
 .text{
     margin-top: 10%;
 }
+
 .text span{
     font-weight: bolder;
+
 }
+
 .bar{
     background-color: hsl(229, 57%, 11%);
     width: 90%;
@@ -65,63 +78,77 @@ section{
     padding: 1%;
     border-radius: 20px;
 }
+
 .bar .insidebar{
     border-radius: 20px;
     width: 81.5%;
-    background-image: linear-gradient(to right, hsl(6,100%, 80%), hsl(335, 100%, 65%));
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+    padding: .5%;
     display: flex;
     justify-content: flex-end;
 }
+
 .bar .insidebar .whiteball{
     height: 10px;
     background-color: white;
     width: 4%;
     border-radius: 10px;
 }
+
 .limit{
     display: flex;
     justify-content: space-between;
     width: 90%;
     font-weight: bold;
     margin-top: 3%;
-    margin-bottom: 15%;
+    margin-bottom:15% ;
 }
+
+
 
 @media only screen and (min-width: 750px){
     body{
-        background-image: url(../../images/bg-desktop.png);
+        background-image: url("../../images/bg-desktop.png");
         background-position-y: bottom;
-        background-color: hsl(229, 57%, 11%);
+        background-color: hsl(229, 57%, 11%) ;
         background-repeat: repeat-x;
     }
-    section{
+
+    .section{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-content: center;
+        align-content: center;   
     }
-    .boxone{
+
+    .boxOne{
         width: 25%;
-        margin-right: 25%;
+        margin-right: 2%;
     }
-    .boxtwo{
+
+    .boxTwo{
         width: 45%;
         margin-left: 2%;
-        margin-bottom: 1%;
+        margin-bottom:1% ;
     }
+
     .text{
         margin-top: 5%;
         align-self: flex-start;
         margin-left: 5%;
     }
+
     .bar{
         margin-top: 3%;
-        padding: .5%;
+        padding: 0.5%;
     }
+
     .bar .insidebar .whiteball{
         width: 2%;
     }
+
     .limit{
         margin-top: 1%;
+        margin-bottom:3%;
     }
 }
