@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: hsl(1, 0%, 95%);
+    background-color: white;
 }
 #container{
     width: 100%;
@@ -15,7 +15,7 @@ body{
 }
 .card{
     width: 300px;
-    height: 480px;
+    height: 500px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
@@ -37,6 +37,10 @@ body{
     background-color: lightgreen;
 }
 .card:nth-of-type(4){
+    padding: 40px;
+    background-color: lightslategray;
+}
+.card:nth-of-type(5){
     padding: 40px;
     background-color: lightsalmon;
     border-bottom-right-radius: 10px;
