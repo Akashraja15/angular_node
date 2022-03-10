@@ -1,154 +1,152 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
-    background: url(../../images/bg-mobile.png); 
+body {
+    background: url(../../images/bg-mobile.png);
+    background-repeat: round; 
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    background-repeat: round;
 }
 
-.section{
-    height: 100vh;
-    width: 100%;
+.section {
+    align-items: center;
     display: flex;
     flex-direction: column;
+    height: 100vh;
     justify-content: center;
-    align-items: center;
+    width: 100%;
 }
 
-.boxOne{
-    width: 90%;
+.boxOne {
     background-color: hsl(228, 56%, 26%);
     border-radius: 10px 100px 10px 10px;
+    width: 90%;
 }
 
-.logo{
+.logo {
     margin: 9%;
 }
 
-.icon{
-    display: flex;
+.icon {
     align-items: center;
-    margin-left: 9%;
-    margin-bottom: 9%;
-    width: 50%;
+    display: flex;
     justify-content: space-between;
+    margin-bottom: 9%;
+    margin-left: 9%;
+    width: 50%;
 }
 
-.document , .folder , .upload{
-    background-color: hsl(229, 57%, 11%);
-    padding: 7%;
-    height: 20px;
-    width: 20px;
-    display: flex;
-    justify-content: center;
+.document , .folder , .upload {
     align-items: center;
+    background-color: hsl(229, 57%, 11%);
     border-radius: 10px;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    padding: 7%;
+    width: 20px;
 }
 
-.boxTwo{
-    color: white;
-    width: 90%;
+.boxTwo {
+    align-items: center;
     background-color: hsl(228, 56%, 26%);
-    margin-top: 5%;
+    border-radius: 10px;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-
+    margin-top: 5%;
+    width: 90%;
 }
 
-.text{
+.text {
     margin-top: 10%;
 }
 
-.text span{
+.text span {
     font-weight: bolder;
-
 }
 
-.bar{
+.bar {
     background-color: hsl(229, 57%, 11%);
-    width: 90%;
+    border-radius: 20px;
     margin-top: 5%;
     padding: 1%;
-    border-radius: 20px;
+    width: 90%;   
 }
 
-.bar .insidebar{
-    border-radius: 20px;
-    width: 81.5%;
+.bar .insidebar {
     background-image: linear-gradient(to right, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
-    padding: .5%;
+    border-radius: 20px;
     display: flex;
     justify-content: flex-end;
+    padding: .5%;
+    width: 81.5%;
 }
 
-.bar .insidebar .whiteball{
-    height: 10px;
+.bar .insidebar .whiteball {
     background-color: white;
-    width: 4%;
     border-radius: 10px;
+    height: 10px;
+    width: 4%;
 }
 
-.limit{
+.limit {
     display: flex;
-    justify-content: space-between;
-    width: 90%;
     font-weight: bold;
-    margin-top: 3%;
+    justify-content: space-between;
     margin-bottom:15% ;
+    margin-top: 3%;
+    width: 90%;
 }
 
 
 
-@media only screen and (min-width: 750px){
-    body{
+@media only screen and (min-width: 750px) {
+    body {
+        background-color: hsl(229, 57%, 11%) ;
         background-image: url(../../images/bg-desktop.png);
         background-position-y: bottom;
-        background-color: hsl(229, 57%, 11%) ;
         background-repeat: repeat-x;
     }
 
-    .section{
+    .section {
+        align-content: center; 
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-content: center;   
     }
 
-    .boxOne{
-        width: 25%;
+    .boxOne {
         margin-right: 2%;
+        width: 25%;
     }
 
-    .boxTwo{
-        width: 45%;
+    .boxTwo {
+        margin-bottom: 1%;
         margin-left: 2%;
-        margin-bottom:1% ;
+        width: 45%;
     }
 
-    .text{
-        margin-top: 5%;
+    .text {
         align-self: flex-start;
         margin-left: 5%;
+        margin-top: 5%;
     }
 
-    .bar{
+    .bar {
         margin-top: 3%;
         padding: 0.5%;
     }
 
-    .bar .insidebar .whiteball{
+    .bar .insidebar .whiteball {
         width: 2%;
     }
 
-    .limit{
-        margin-top: 1%;
+    .limit {
         margin-bottom:3%;
+        margin-top: 1%;
     }
 }
