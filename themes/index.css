@@ -4,43 +4,44 @@
 }
 header {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/laptop.jfif");
-    height: 100vh;
     background-position: centre;
     background-size: cover;
+    height: 100vh;
 }
 ul{
-    float: right;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    }
+    display: flex;
+    float: right;
+    justify-content: center;
+}
 
 ul li{
+    font-size: 18px;
     list-style: none;
     margin-right: 62px;
     margin-top: 27px;
-    font-size: 18px;
 }
 ul li a{
-    text-decoration: none;
     color: #fff;
     font-family: Arial;
     font-weight: bold;
+    text-decoration: none;
     transition: 0.4s ease-in-out;
 }
 ul li a:hover{
     color: #ff7200;
 }
 .hero{
-    top: 40%;
+    color: #fff;
     left: 50%;
     position: absolute;
-    transform: translate(-50%, -50%);
-    color: #fff;
     text-align: center;
+    top: 40%;
+    transform: translate(-50%, -50%);
 }
 h1{
     color: red;
     font-size: 60px;
     letter-spacing: 5px;
+    text-transform: uppercase;
 }
