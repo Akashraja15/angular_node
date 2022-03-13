@@ -8,30 +8,30 @@ header {
     background-size: cover;
     height: 100vh;
 }
-ul{
+ul {
     align-items: center;
     display: flex;
     float: right;
     justify-content: center;
 }
 
-ul li{
+ul li {
     font-size: 18px;
     list-style: none;
     margin-right: 62px;
     margin-top: 27px;
 }
-ul li a{
+ul li a {
     color: #fff;
     font-family: Arial;
     font-weight: bold;
     text-decoration: none;
     transition: 0.4s ease-in-out;
 }
-ul li a:hover{
+ul li a:hover {
     color: #ff7200;
 }
-.hero{
+.hero {
     color: #fff;
     left: 50%;
     position: absolute;
@@ -39,9 +39,9 @@ ul li a:hover{
     top: 40%;
     transform: translate(-50%, -50%);
 }
-h1{
+h1 {
     color: red;
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }

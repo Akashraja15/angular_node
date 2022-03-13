@@ -17,7 +17,7 @@ body{
     align-items: center;
     display: flex;
     flex-flow: column wrap;
-    height: 500px;
+    height: 550px;
     justify-content: baseline;
     padding: 20px 0px 0px 30px;
     width: 260px;
@@ -46,6 +46,13 @@ body{
     color: brown;
     font-family: sans-serif;
     font-size: 30px;
+    line-height: 30px;
     padding-bottom: 30px;
+    text-align: left;
     text-transform: uppercase;
+}
+
+.card ol li a {
+    text-decoration: none;
+    padding: 2px;
 }
