@@ -18,7 +18,7 @@ body{
     display: flex;
     flex-flow: column wrap;
     height: 550px;
-    justify-content: baseline;
+    justify-content: center;
     padding: 20px 0px 0px 30px;
     width: 260px;
 }
