@@ -1,38 +1,40 @@
-
-h2{
+h1 {
+    background-color: green;
+}
+h2 {
     background-color: green;
     color: white;
 }
 
-h3{
+h3 {
     background-color: blue;
     color: white;
 }
 
-h1,h3{
+h1, h3 {
     color: white;
 }
 
-ul li{
+ul li {
     color: red;
 }
 
-ul>li{
+ul>li {
     color: blue;
 }
 
-li{
+li {
     color: green;
 }  
 
-.item{
+.item {
     color: pink;
 }
 
-#list-item{
+#list-item {
     color: aqua;
 }
 
-input[type='email']{
+input[type='email'] {
     background-color: yellowgreen;
 }
