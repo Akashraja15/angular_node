@@ -1,52 +1,51 @@
 * {
-    margin: 0;
-    padding: 0;
-}
+      margin: 0;
+      padding: 0;
+  }
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/laptop.jfif");
-    background-position: centre;
-    background-size: cover;
-    height: 100vh;
-}
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/laptop.jfif");
+      background-position: centre;
+      background-size: cover;
+      height: 100vh;
+  }
 ul {
-    align-items: center;
-    display: flex;
-    float: right;
-    justify-content: center;
-}
-
+      align-items: center;
+      display: flex;
+      float: right;
+      justify-content: center;
+  }
 ul li {
-    font-size: 18px;
-    list-style: none;
-    margin-right: 62px;
-    margin-top: 27px;
-}
+      font-size: 18px;
+      list-style: none;
+      margin-right: 62px;
+      margin-top: 27px;
+  }
 ul li a {
-    color: #fff;
-    font-family: Arial;
-    font-weight: bold;
-    text-decoration: none;
-    transition: 0.4s ease-in-out;
-}
+      color: #fff;
+      font-family: Arial;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.4s ease-in-out;
+  }
 ul li a:hover {
-    color: #ff7200;
-}
+      color: #ff7200;
+  }
 .hero {
-    color: #fff;
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    top: 40%;
-    transform: translate(-50%, -50%);
-}
+      color: #fff;
+      left: 50%;
+      position: absolute;
+      text-align: center;
+      top: 40%;
+      transform: translate(-50%, -50%);
+  }
 span {
-    color: blue;
-    padding: 5px;
-    font-size: 50px;
-}
+      color: blue;
+      font-size: 50px;
+      padding: 5px;
+  }
 h1 {
-    font-style: italic;
-    font-size: 50px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
+      font-size: 50px;
+      font-style: italic;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+  }
