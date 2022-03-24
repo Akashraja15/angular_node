@@ -39,9 +39,14 @@ ul li a:hover {
     top: 40%;
     transform: translate(-50%, -50%);
 }
-h1 {
-    color: red;
+span {
+    color: blue;
+    padding: 5px;
     font-size: 50px;
-    letter-spacing: 5px;
+}
+h1 {
+    font-style: italic;
+    font-size: 50px;
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
